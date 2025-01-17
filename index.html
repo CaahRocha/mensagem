@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Tamires</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            text-align: center;
+            margin-top: 50px;
+        }
+        a {
+            text-decoration: none;
+            color: #ff4500;
+            font-size: 24px;
+        }
+        .message {
+            margin-top: 20px;
+            font-size: 20px;
+            color: #0000cd;
+        }
+    </style>
+</head>
+<body>
+    <a href="#" onclick="showMessage()">Clique aqui</a>
+    <div class="message" id="message"></div>
+
+    <script>
+        function showMessage() {
+            document.getElementById('message').textContent = 'Amei a nossa primera noite, do nosso contrato de 1 ano!';
+        }
+    </script>
+</body>
+</html>
